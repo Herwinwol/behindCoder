@@ -1,0 +1,470 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.contenedor-header{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(48, 48, 48);
+    padding-top: 0.1px;
+    border-bottom: 2px solid rgb(158, 111, 24);
+    margin-bottom: 0px;
+}
+
+.logo{
+    width: 33%;
+    height: 60px;
+    margin-top: -12px;
+    margin-left: 40px;
+}
+
+.texto_banner{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: #c0b5b5;
+}
+
+.texto_banner--color{
+    color: rgb(197, 135, 20);
+}
+
+.barra-nav{
+    width: 60%;
+    height: 60px;
+}
+
+.lista-nav{
+    width: 95%;
+    height: 100%;
+    text-align: right;
+    margin: 0 0 0 50px;
+}
+
+.item_nav{
+    display: inline-block;
+    margin: 14px 10px;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.enlace_nav{
+    color: rgb(192, 181, 181);
+    text-decoration: none;
+}
+
+.enlace_nav--color{
+    color: rgb(197, 135, 20)
+}
+
+.enlace_nav--hover:hover{
+    color: rgb(138, 94, 13)
+}
+
+.contenedor{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    background-color: rgb(105, 103, 100) ;
+}
+
+.section_1{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(34, 33, 33) ;
+    background-image:url("../images/prueba1.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.texto-1{
+    width: 700px;
+    height: 300px;
+    padding-top: 130px;
+    padding-left: 150px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title_section1{
+    display: inline-block;
+    margin-bottom: 1px;
+    color: rgb(43, 40, 40);
+    font-size: 35px;
+    border-bottom: 2px solid rgb(138, 94, 13) ;
+}
+
+.text_section1{
+    margin-bottom: -7px;
+    font-size: 22px;
+}
+
+.text_section1--minititle{
+    margin-top: -7px;
+    color: #c0b5b5;
+    font-size: 20px;
+}
+
+.boton-1{
+    width: 90px;
+    height: 45px;
+    margin-top: 45px;
+    margin-left: 300px;
+    border: 2px solid rgb(31, 29, 29);
+    box-shadow: 3px 3px 3px -1px rgba(18,17,17,0.58);
+    background-color: rgb(179, 125, 27);
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.link-boton1{
+    display: inline-block;
+    text-decoration: none;
+    margin: 8px 0;
+    color: rgb(226, 219, 219);
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+} 
+
+.boton-1:hover{
+    background-color: rgb(138, 94, 13);
+    color: rgb(236, 229, 229);
+}
+
+.section_2{
+    position: relative;
+    display: flex;
+    margin:  auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 80%;
+    height:300px;
+    background-color: rgb(179, 125, 27);
+    border: 2px solid rgb(65, 59, 59);
+    box-shadow: 10px 10px 11px -3px rgba(25,24,24,0.75);
+    border-radius: 5px;
+}
+
+.texto-filo{
+    width: 40%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title-filo{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 35px;
+    letter-spacing: 1.5px;
+    color: rgb(226, 219, 219);
+    border-bottom: 2px solid rgb(68, 47, 8) ;
+}
+
+.text-filo{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: -15px;
+    width: 350px;
+}
+
+.img-filo{
+    width: 60%;
+    background-image: url("../images/filosofia.jpg");
+    box-shadow: -3px 0px 20px 1px rgba(0,0,0,0.75);
+    background-size: cover;
+}
+
+.boton-2{
+    width: 100px;
+    height: 40px;
+    margin-top: 1px;
+    margin-left: 120px;
+    border: 2px solid rgb(34, 33, 33);
+    box-shadow: 3px 3px 3px -1px rgba(18,17,17,0.58);
+    background-color: rgb(94, 90, 90);
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.link-boton2{
+    display: inline-block;
+    text-decoration: none;
+    margin: 6px auto;
+    color: rgb(226, 170, 65);
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.boton-2:hover{
+    background-color:rgb(34, 33, 33) ;
+    color: rgb(221, 173, 83);
+}
+
+.section_3{
+    position: relative;
+    display: flex;
+    margin:  auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 80%;
+    height:300px;
+    background-color: rgb(92, 63, 10);
+    border: 2px solid rgb(65, 59, 59);
+    box-shadow: 10px 10px 11px -3px rgba(25,24,24,0.75);
+    border-radius: 5px;
+}
+
+.texto-psico{
+    width: 40%;
+    font-family: 'Poppins', sans-serif
+}
+
+.title-psico{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 35px;
+    color: rgb(226, 219, 219);
+    border-bottom: 2px solid rgb(199, 152, 65) ;
+}
+
+.text-psico{
+    display: inline-block;
+    width: 400px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: -15px;
+    color: rgb(172, 172, 172);
+}
+
+.boton-3{
+    width: 100px;
+    height: 40px;
+    margin-top: -10px;
+    margin-left: 180px;
+    border: 2px solid rgb(151, 106, 39);
+    box-shadow: 3px 3px 3px -1px rgba(18,17,17,0.58);
+    background-color: rgb(37, 37, 37);
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.link-boton3{
+    display: inline-block;
+    text-decoration: none;
+    margin: 6px auto;
+    color: rgb(172, 172, 172);
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.boton-3:hover{
+    background-color:rgb(151, 106, 39);
+    color: rgb(65, 64, 64)
+}
+
+
+.img-psico{
+    width: 59%;
+    margin-right: 20px;
+    background-image: url("../images/psico.jpg");
+    background-size: contain;
+    box-shadow: -3px 0px 20px 1px rgba(0,0,0,0.75);
+}
+
+.section_4{
+    position: relative;
+    display: flex;
+    margin:  auto;
+    padding: 20px;
+    width: 80%;
+    height:300px;
+    background-color: rgb(179, 125, 27);
+    border: 2px solid rgb(65, 59, 59);
+    box-shadow: 10px 10px 11px -3px rgba(25,24,24,0.75);
+    border-radius: 5px;
+}
+
+.texto_fisio{
+    width: 40%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title-fisio{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 35px;
+    letter-spacing: 1.5px;
+    color: rgb(226, 219, 219);
+    border-bottom: 2px solid rgb(68, 47, 8) ;
+}
+
+.text-fisio{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: -15px;
+    width: 350px;
+}
+
+.img-fisio{
+    width: 60%;
+    background-image: url("../images/fisio.jpg");
+    box-shadow: -3px 0px 20px 1px rgba(0,0,0,0.75);
+    background-size: contain;
+}
+
+.boton-3{
+    width: 100px;
+    height: 40px;
+    margin-top: -12px;
+    margin-left: 120px;
+    border: 2px solid rgb(34, 33, 33);
+    box-shadow: 3px 3px 3px -1px rgba(18,17,17,0.58);
+    background-color: rgb(94, 90, 90);
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.link-boton3{
+    display: inline-block;
+    text-decoration: none;
+    margin: 6px auto;
+    color: rgb(226, 170, 65);
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.boton-3:hover{
+    background-color:rgb(34, 33, 33) ;
+    color: rgb(221, 173, 83);
+}
+
+.pie{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border-top: 2px solid rgb(221, 173, 83);
+    background-color: rgb(48, 48, 48);
+}
+
+.texto-pie{
+    width: 50%;
+    margin-left: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title_pie{
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 14px;
+    letter-spacing: 2px;
+    color: #c0b5b5;
+}
+
+.title_pie--color{
+    color: rgb(197, 135, 20);
+}
+
+.text_pie{
+    display: inline-block;
+    color: #c0b5b5;
+    font-size: 15px;
+    margin-top: -25px;
+}
+
+.enlaces{
+    position: relative;
+    width: 50%;
+}
+
+.boton-pie{
+    width: 100px;
+    height: 40px;
+    margin-top: 28px;
+    margin-left: 200px;
+    padding-top: 9px;
+    border: 2px solid rgb(31, 29, 29);
+    box-shadow: 3px 3px 3px -1px rgba(18,17,17,0.58);
+    background-color: rgb(179, 125, 27);
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.link-boton-pie{
+    text-decoration: none;
+    color: #c7c7c7;
+}
+
+.boton-pie:hover{
+    background-color: rgb(138, 94, 13);
+    color: rgb(236, 229, 229);
+}
+
+.sobre-icono{
+    position: absolute;
+    display: inline-block;
+    color: rgb(223, 148, 37);
+    top:24px;
+    left: 310px;
+    font-size: 50px;
+}
+
+.sobre-icono:hover{
+    color: rgb(153, 99, 17);
+}
+
+.whats-icono{
+    position: absolute;
+    display: inline-block;
+    color: rgb(223, 148, 37);
+    top:95px;
+    left: 220px;
+    font-size: 40px;
+}
+
+.game-icono{
+    position: absolute;
+    display: inline-block;
+    color: rgb(223, 148, 37);
+    top:97px;
+    left: 275px;
+    font-size: 40px;
+}
+
+.share-icono{
+    position: absolute;
+    display: inline-block;
+    color: rgb(223, 148, 37);
+    top:97px;
+    left: 330px;
+    font-size: 37px;
+}
+
+.whats-icono:hover, .game-icono:hover, .share-icono:hover{
+    color: rgb(153, 99, 17);
+}
